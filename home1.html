@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="h-3/4 w-screen bg-cover    " style="background-image: url('https://cdn.pixabay.com/photo/2022/07/16/07/20/sunset-7324598_960_720.jpg');">
+        <div class="flex space-x-2 md:space-x-12 justify-center items-center">
+            <div class="flex items-center">
+            <ion-icon class="text-red-500 w-12 h-8" name="star"></ion-icon>
+          
+            <h1 class="text-white font-bold text-4xl">
+               
+                Directone
+                <ul class="text-sm">
+                    <li>Directory and Listing</li>
+                </ul>
+            </h1>
+        </div>
+
+            <nav class="flex space-x-2 text-gray-50 text-sm">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Listing</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </nav>
+
+            <button class="bg-red-600 px-2 py-2 text-white font-bold rounded-lg">+addListing</button>
+        </div>
+        <div class="md:mt-16 mt-16 flex flex-col space-y-2 items-center">
+            <p class="md:text-7xl text-3xl font-bold text-center text-white">
+                Lets Explore Your <br />
+                Awesome City
+            </p>
+            <p class="text-sm text-center text-white">Find Great Place To eat, shop,or Visit from Local Experts</p>
+
+            <div class="flex flex-col md:flex-row space-y-4 md:space-x-0.5 md:items-start items-center py-2 px-2 pt-2">
+                <input class="h-16 w-0  opacity-0 border-gray-200 outline-red-400" type="text" placeholder="  what are you Looking for?" ></input>
+                <input class="md:h-16 md:w-72 w-96 h-16  border-gray-200 outline-red-400" type="text" placeholder="  what are you Looking for?" />
+
+                <input class="md:h-16 md:w-72  w-96 h-16  border-gray-200 outline-red-400" type="text" placeholder="Search Location" />
+                <select class=" md:h-16 md:w-72 w-96 h-16  border-gray-200 outline-red-400" name="hotels" id="Hotels1" form="form">
+                    <option value="All">All categories</option>
+                    <option value="Economy">Economy</option>
+                    <option value="Luxury">Luxury</option>
+                    <option value="Royal">Royal</option>
+                </select>
+                <button class="bg-red-600 hover:bg-red-900 text-white w-48 h-16 justify-between  rounded-md"><ion-icon  class="w-16" name="search-outline"></ion-icon>Search<br></button>
+                <div><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br></div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    
+        <div class="hidden md:flex md:flex-row flex-col md:space-x-2 justify-center -mt-16">
+            <div class="w-96 h-32  md:w-32 md:h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400">
+                <ion-icon name="heart" class="text-red-400 w-12 h-12"></ion-icon>
+                <p>Food and Drink</p>
+                <p>101listing</p>
+            </div>
+            <div class="w-32 h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400">
+                <ion-icon name="bed" class="text-red-400 w-12 h-12"></ion-icon>
+                <p>Hotels</p>
+                <p>101listing</p>
+            </div>
+            <div class="w-32 h-32 group bg-white items-center text-center justify-center group-hover:text-white hover:text-white hover:bg-red-400">
+                <ion-icon name="pricetags" class="text-red-400  w-12 h-12"></ion-icon>
+                <p>Shopping</p>
+                <p>101listing</p>
+            </div>
+        
+            <div class="w-32 h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400" href="">
+                <ion-icon name="scan-circle" class="text-red-400 hover:text-white w-12 h-12"></ion-icon>
+                <p>Beauty</p>
+                <p>101listing</p>
+            </div>
+        
+            <div class="w-32 h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400" href="">
+                <ion-icon name="fitness" class="text-red-400 hover:text-white w-12 h-12"></ion-icon>
+                <p>Fitness</p>
+                <p>101listing</p>
+            </div>
+            <div class="w-32 h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400" href="">
+                <ion-icon name="scan-circle" class="text-red-400 hover:text-white w-12 h-12"></ion-icon>
+                <p>Bar and Club</p>
+                <p>101listing</p>
+            </div>
+        </div>
+        <div class=" hidden   mt-4 md:flex flex-col md:flex-row md:space-x-2 justify-center items-center">
+            <div class="items-center w-32 h-32 bg-white  text-center justify-center hover:text-white hover:bg-red-400" href="">
+                <ion-icon name="game-controller" class="text-red-400 hover:text-white w-12 h-12"></ion-icon>
+                <p>Games</p>
+                <p>101listing</p>
+            </div>
+            <div class="w-32 h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400" href="">
+                <ion-icon name="scan-circle" class="text-red-400 w-12 h-12"></ion-icon>
+                <p>Places</p>
+                <p>101listing</p>
+            </div>
+        
+            <div class="w-32 h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400" href="">
+                <ion-icon name="scan-circle" class="text-red-400 w-12 h-12"></ion-icon>
+                <p>Circus</p>
+                <p>101listing</p>
+            </div>
+            <div class="w-32 h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400" href="">
+                <ion-icon name="scan-circle" class="text-red-400 w-12 h-12"></ion-icon>
+                <p>Theatres</p>
+                <p>101listing</p>
+            </div>
+            <div class="w-32 h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400" href="">
+                <ion-icon name="car-sport" class="text-red-400 w-12 h-12"></ion-icon>
+                <p>Sports</p>
+                <p>101listing</p>
+            </div>
+            <div class="w-32 h-32 bg-white items-center text-center justify-center hover:text-white hover:bg-red-400" href="">
+                <ion-icon name="medkit" class="text-red-400 w-12 h-12"></ion-icon>
+                <p>Health</p>
+                <p>101listing</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
